@@ -1,0 +1,299 @@
+/* Feuille de style css pour le fichier html cv */
+
+/* Appels globaux  */
+*{
+    font-family: sans-serif;
+}
+
+/*----Appels pour le corps de page----*/
+body{
+    width: 725px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    border: solid;
+}
+
+header, main, .align_title, .block_flex{
+    display: flex;
+}
+
+/* ----Appels pour l'en-tête de page---- */
+
+figure{
+    width: 150px;
+    margin-left: 25px;
+}
+
+.block_description, .right_block_margin{
+    width: 484px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blue_block{
+    background-color: rgb(63, 101, 146);
+    width: 200px;
+}
+
+/* partie informations personnelles */
+
+aside{
+    color: white;
+}
+
+.left_marge H2{
+    font-size: 18px;
+}
+
+aside h2{
+    font-size: 20px;
+}
+
+.style_none{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: square;
+    padding-left: 14px;
+}
+
+.left_marge{
+    margin-left: 15px;
+}
+
+.para_size_left{
+    font-size: 14px;
+}
+
+.last_info_aside{
+    margin-bottom: 55px;
+}
+
+/* Partie parcours */
+
+.fas{
+    margin-right: 16px;
+    margin-top: 13px;
+    font-size: 19px;
+}
+
+.block_date{
+    font-size: 13px;
+    width: 185px;
+    margin-top: 1px;
+}
+
+.block_flex{
+    margin-bottom: 30px;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+.block_company{
+    width: 340px;
+}
+
+section h2{
+    font-size: 17px;
+}
+
+H3{
+    font-size: 14px;
+}
+
+/* partie compétence */
+
+.competence_part{
+    width: 250px;
+}
+.stars_skills{
+    display: flex;
+    justify-content: space-between;
+}
+.stars_align{
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+.small_star{
+    font-size: 15px;
+    margin-right: 0px;
+}
+
+/* partie responsive 750px et moins */
+
+@media all and (max-width: 750px) {
+
+    body {
+        width: 590px;
+    }
+
+    .right_block_margin {
+        width: 406px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .left_marge H2 {
+        font-size: 13px;
+    }
+
+    section h2{
+        font-size: 12px;
+    }
+
+    .fa-graduation-cap, .fa-briefcase, .fa-code{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-right: 8px;
+    }
+
+    .block_description{
+        width: 400px;
+    }
+
+    .description{
+        font-size: 13px;
+    }
+
+    .blue_block{
+        width: 143px;
+    }
+    .second_title_sup{
+        font-size: 11px;
+    }
+
+    .para_size_left {
+        font-size: 10px;
+    }
+
+    .block_date{
+        width: 135px;
+        font-size: 10px;
+    }
+
+    H3 {
+        font-size: 11px;
+    }
+
+    .block_company p{
+        font-size: 10px;
+    }
+
+    .block_company ul{
+        font-size: 10px;
+    }
+
+    .stars_skills p{
+        font-size: 12px;
+    }
+
+    .competence_part {
+        width: 160px;
+    }
+
+    .fa-star{
+        font-size: 10px;
+    }
+
+    .stars_align {
+        margin-top: 0px
+    }
+
+}
+
+/* partie responsive pour les écrans de 540px et moins */
+@media all and (max-width: 540px) {
+    body{
+        width: 100%;
+        margin: 0px;
+        border: none;
+    }
+
+    header{
+        display: block;
+    }
+
+    .blue_block{
+        width: 100%;
+    }
+
+    figure{
+        width: 90px;
+        margin: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .block_description{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .description {
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    main{
+        display: block;
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .left_marge{
+        margin-left: 0px;
+    }
+
+    .second_title_sup{
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .block_date {
+        width: 90px;
+        margin-right: 20px;
+    }
+    
+    .para_size_left{
+        text-align: center;
+        font-size: 85%;
+        list-style: none;
+    }
+
+    .right_block_margin {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .resp_title_enseignement{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    .competence_part {
+        width: 100%;
+    }
+    
+}
