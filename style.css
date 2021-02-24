@@ -134,6 +134,10 @@ H3{
         width: 590px;
     }
 
+    figure{
+        width: 90px;
+    }
+    
     .right_block_margin {
         width: 406px;
     }
@@ -211,7 +215,7 @@ H3{
 }
 
 /* partie responsive pour les écrans de 540px et moins */
-@media all and (max-width: 540px) {
+@media all and (max-width: 610px) {
     body{
         width: 100%;
         margin: 0px;
